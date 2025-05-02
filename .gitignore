@@ -1,0 +1,48 @@
+# Rust specific
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Kernel module specific
+*.o
+*.ko
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+.tmp_versions/
+Module.symvers
+modules.order
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# System specific
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.ko
+*.o
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+.tmp_versions/
+Module.symvers
+modules.order
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Environment specific
+.env
+.env.local
+.env.*.local 
